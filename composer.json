@@ -1,5 +1,5 @@
 {
-    "name": "infyomlabs/longnd-demo-template",
+    "name": "longnd/longnd-demo-template",
     "description": "demo template",
     "type": "library",
     "require": {
