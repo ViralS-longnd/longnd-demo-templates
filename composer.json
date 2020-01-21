@@ -1,0 +1,20 @@
+{
+    "name": "infyomlabs/longnd-demo-template",
+    "description": "demo template",
+    "type": "library",
+    "require": {
+        "php": ">=7.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ViralS-longnd",
+            "email": "longnd@viralsoft.vn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "infyomlabs\\LongNdDemoTemplates\\": "src/"
+        }
+    }
+}
