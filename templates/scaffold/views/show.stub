@@ -1,11 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="content-header">
-        <h1>
-            $MODEL_NAME_HUMAN$
-        </h1>
-    </section>
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div>
+                    $MODEL_NAME_HUMAN$
+                </div>
+            </div>
+        <div>
+    </div>
     <div class="content">
         <div class="box box-primary">
             <div class="box-body">

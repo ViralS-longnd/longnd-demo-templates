@@ -1,11 +1,15 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="content-header">
-        <h1>
-            @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')
-        </h1>
-    </section>
+    <div class="app-page-title">
+        <div class="page-title-wrapper">
+            <div class="page-title-heading">
+                <div>
+                    $MODEL_NAME_HUMAN$
+                </div>
+            </div>
+        <div>
+    </div>
     <div class="content">
         @include('adminlte-templates::common.errors')
         <div class="box box-primary">
